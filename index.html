@@ -33,6 +33,7 @@
   function getDeviceInfo() {
     let options = {
       optionalServices: [bleService],
+      acceptAllDevices:true
       filters: [
         { "name": deviceName }
       ]
